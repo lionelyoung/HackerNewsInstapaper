@@ -1,0 +1,7 @@
+bottle-sqlite
+mechanize
+lxml
+SQLAlchemy
+scrapy >= 0.12
+#scrapy >= 0.13 # to get -o option
+pysqlite
