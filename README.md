@@ -27,5 +27,6 @@ Two example scripts are provided, but needs editing depending on your virtualenv
 2. `scrapyhacker/cron_hackernews_instapaper.sh`: Submits the unsent articles in articles.db to Instapaper
 
 Example lines to add to your crontab:
-  `0 3 * * * cron_hackernews_scrape.sh > /dev/null 2>&1
-   15 3 * * 1 cron_hackernews_instapaper.sh`
+`0 3 * * * cron_hackernews_scrape.sh > /dev/null 2>&1` 
+
+ `15 3 * * 1 cron_hackernews_instapaper.sh`
